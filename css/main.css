@@ -1,0 +1,129 @@
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main_sec01 {
+    padding: 100px 0;
+}
+
+.sec01_title {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sec01_title h1 {
+    display: flex;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.sec01_title p {
+    display: flex;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.sec01_img {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    margin: 20px 0 0 0;
+}
+
+.sec01_img span{
+    margin: 15px 0;
+    display: flex;
+
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main_sec02 .img{
+    position: relative;
+    height: 100vh;
+}
+
+.main_sec02 .sec02_img {
+    background: url(../imges/mainvisual03.jpg)no-repeat center center/cover;
+}
+
+.main_sec02 .sec02_btn {
+    width: 1200px;
+    height: 150px;
+    padding: 15px 50px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 100px;
+
+    position: absolute;
+    bottom: -537px;
+    right: 0;
+}
+
+.main_sec02 .sec02_btn i{
+    background: rgba(255,255,255,0.3);
+    border: 1px solid #fff;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main_sec03{
+    padding: 100px 0;
+}
+
+.main_sec03 .sec03_box {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+}
+.main_sec03 .box_img {
+    width: 300px;
+    height: 300px;
+}
+
+.main_sec03 .box_txt {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.main_sec03 .box_txt span {
+    padding: 0 15px;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    top: 50%;
+
+    font-size: inherit;
+    font-weight: inherit;
+    color: #fff;
+}
+
+.main_sec03 .one {
+    background: rgb(52, 139, 52);
+}
+
+.main_sec03 .two {
+    background: thistle;
+}
