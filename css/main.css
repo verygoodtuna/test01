@@ -92,17 +92,18 @@
 
 .main_sec03 .sec03_box {
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
 }
-.main_sec03 .box_img {
-    width: 300px;
+
+.main_sec03 .box_img img{
+    width: 600px;
     height: 300px;
 }
 
 .main_sec03 .box_txt {
     position: relative;
-    width: 300px;
+    width: 600px;
     height: 300px;
 }
 
@@ -111,7 +112,6 @@
     position: absolute;
     display: flex;
     text-align: center;
-    align-items: center;
 
     top: 50%;
 
